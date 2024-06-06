@@ -14,6 +14,7 @@ defmodule TzWorld do
     TzWorld.Backend.DetsWithIndexCache,
     TzWorld.Backend.Ets,
     TzWorld.Backend.EtsWithIndexCache,
+    TzWorld.Backend.Embedded
   ]
 
   @doc """
@@ -236,7 +237,8 @@ defmodule TzWorld do
     TzWorld.Backend.Memory,
     TzWorld.Backend.DetsWithIndexCache,
     TzWorld.Backend.Ets,
-    TzWorld.Backend.Dets
+    TzWorld.Backend.Dets,
+    TzWorld.Backend.Embedded
   ]
 
   def fetch_backend do
